@@ -12,7 +12,7 @@ export const HeroPage = () => {
       return <Navigate to="/marvel" />
     }
 
-    const urlImage = `../../../assets/heros/${ id }.jpg`
+    const urlImage = `/../../../../public/heros/${ id }.jpg`
 
     const navigate = useNavigate()
     const onBack = () => {
